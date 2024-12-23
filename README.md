@@ -18,12 +18,21 @@
       ├─ admin.py
       ├─ apps.py
       ├─ migrations
-      │  └─ __init__.py
+      │  ├─ __init__.py
+      │  └─ __pycache__
+      │     └─ __init__.cpython-313.pyc
       ├─ models.py
+      ├─ templates
+      │  └─ index.html
       ├─ tests.py
       ├─ views.py
-      └─ __init__.py
-
+      ├─ __init__.py
+      └─ __pycache__
+         ├─ admin.cpython-313.pyc
+         ├─ apps.cpython-313.pyc
+         ├─ models.cpython-313.pyc
+         ├─ views.cpython-313.pyc
+         └─ __init__.cpython-313.pyc
 ```
 # 启动
 ```
@@ -40,3 +49,4 @@ python manage.py runserver
 3. 使用 pip install -r requirements.txt 安装依赖。  
 4. 运行项目并测试。  
 5. 使用 deactivate 退出虚拟环境。  
+```
